@@ -22,8 +22,8 @@ function carrousel(container){
                 url.href = galery[cont - 1];
                 cont--;
             }else{
-                img[0].src = images[images.length - 1]
-                img[1].src = flags[flags.length - 1]
+                img[0].src = images[images.length - 1];
+                img[1].src = flags[flags.length - 1];
                 url.href = galery[galery.length - 1];
                 cont = images.length - 1;
             }
